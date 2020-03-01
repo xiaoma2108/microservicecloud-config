@@ -1,15 +1,14 @@
-spring：
+spring:
   profiles:
-    active:
-    - dev
+    active: dev
 ---
-spring：
+spring:
   profile: dev 
   application:
-    name:microservicecloud-config-mpj-dev
+    name: microservicecloud-config-mpj-dev
 ---
-spring：
+spring:
   profile: test 
   application:
-    name:microservicecloud-config-mpj-test
+    name: microservicecloud-config-mpj-test
 #请保存为utf-8格式
