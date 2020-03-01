@@ -9,7 +9,10 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-client
-aaa: nimabi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
   port: 8202
@@ -17,4 +20,7 @@ spring:
   profiles: test
   application:
     name: microservicecloud-config-client
-aaa: nimabi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-test.com:7001/eureka/
