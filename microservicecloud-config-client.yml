@@ -20,5 +20,5 @@ spring:
   application:
     name: microservicecloud-config-client
 eureka:
-  client
+  client:
     defaultZone: http://eureka-test.com:7001/eureka/
