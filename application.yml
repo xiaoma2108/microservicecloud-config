@@ -4,12 +4,12 @@ spring：
     - dev
 ---
 spring：
-  profile:dev 
+  profile: dev 
   application:
     name:microservicecloud-config-mpj-dev
 ---
 spring：
-  profile:test 
+  profile: test 
   application:
-    name:microservicecloud-config-mpj-dev
-#请保存味utf-8格式
+    name:microservicecloud-config-mpj-test
+#请保存为utf-8格式
