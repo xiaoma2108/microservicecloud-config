@@ -3,12 +3,12 @@ spring:
     active: dev
 ---
 spring:
-  profile: dev 
+  profiles: dev 
   application:
     name: microservicecloud-config-mpj-dev
 ---
 spring:
-  profile: test 
+  profiles: test 
   application:
     name: microservicecloud-config-mpj-test
 #请保存为utf-8格式
